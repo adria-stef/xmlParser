@@ -1,0 +1,11 @@
+<!ELEMENT tasks (task+)>
+<!ELEMENT task (number, due-date, topic, instructions+ ,condition, solution, max-points)>
+<!ATTLIST task subject CDATA #REQUIRED>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT due-date (#PCDATA)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT instructions (instruction+)>
+<!ELEMENT instruction (#PCDATA)>
+<!ELEMENT condition (#PCDATA)>
+<!ELEMENT solution (#PCDATA)>
+<!ELEMENT max-points (#PCDATA)>

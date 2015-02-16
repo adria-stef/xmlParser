@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tasks.xsl"?>
+<tasks xsi:noNamespaceSchemaLocation="file://C://Users//Adriana//Desktop//XML//tasks.xsd" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<task>
+		<number>1</number>
+		<due-date>2014-11-14</due-date>
+		<topic>HTML</topic>
+		<instructions>
+			<instruction>Add beautiful-page.html</instruction>
+			<instruction>Add style.css</instruction>
+			<instruction>Add dynamic.js</instruction>
+		</instructions>
+		<condition>Create a full html page.</condition>
+		<solution>adii.html</solution>
+		<max-points>112</max-points>
+	</task>
+	
+	<task>
+		<number>2</number>
+		<due-date>2014-11-28</due-date>
+		<topic>CSS</topic>
+		<instructions>
+			<instruction>Add another-beautiful-page.html</instruction>
+			<instruction>Add another-style.css</instruction>
+			<instruction>Add another-dynamic.js</instruction>
+		</instructions>
+		<condition>Create a full html page.</condition>
+		<solution>another-adii.html</solution>
+		<max-points>150</max-points>
+	</task>
+</tasks>
