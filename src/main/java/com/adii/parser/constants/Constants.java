@@ -22,4 +22,7 @@ public interface Constants {
 	public static final String TASKS_EMBEDDED_XML_FILE = "tasks_embedded.xml";
 	public static final String WRITE_TASKS_XML_FILE = "write-tasks.xml";
 	public static final String DOM_PARSED_HTML_FILE = "domParsedHtml.html";
+
+	public static final String INDENT_AMOUNT = "{http://xml.apache.org/xslt}indent-amount";
+	public static final String INDENT_AMOUNT_VALUE = "4";
 }

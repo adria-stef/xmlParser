@@ -3,6 +3,8 @@ package com.adii.parser.io;
 import static com.adii.parser.constants.Constants.COMMENT;
 import static com.adii.parser.constants.Constants.CONDITION_TAG;
 import static com.adii.parser.constants.Constants.DUE_DATE_TAG;
+import static com.adii.parser.constants.Constants.INDENT_AMOUNT;
+import static com.adii.parser.constants.Constants.INDENT_AMOUNT_VALUE;
 import static com.adii.parser.constants.Constants.INSTRUCTIONS_TAG;
 import static com.adii.parser.constants.Constants.INSTRUCTION_TAG;
 import static com.adii.parser.constants.Constants.MAX_POINTS_TAG;
@@ -133,7 +135,7 @@ public class WriteXMLFileUtil {
 			transformer = transformerFactory.newTransformer();
 			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 			transformer.setOutputProperty(OutputKeys.ENCODING, "utf-8");
-			transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+			transformer.setOutputProperty(INDENT_AMOUNT, INDENT_AMOUNT_VALUE);
 
 			DOMSource source = new DOMSource(document);
 			StreamResult result = new StreamResult(new File(util.getRealPath(xmlPath)));
